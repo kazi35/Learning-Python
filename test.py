@@ -11,5 +11,5 @@ def isPalindrome(x: int) -> bool:
     
     
     
-print(isPalindrome(120))
+print(isPalindrome(1))
 
