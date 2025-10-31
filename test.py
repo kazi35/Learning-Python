@@ -23,19 +23,3 @@
 
     
     
-def find_duplicates_set(nums):
-   
-    seen = set()
-    duplicates = set()  
-    
-    for num in nums:
-        print("Now num is:",num)
-        if num in seen:
-            duplicates.add(num)
-        else:
-            seen.add(num)
-            
-    return list(duplicates)
-
-
-print(f"Example 1 (Set): {find_duplicates_set([0, 1, 1, 0])}")
