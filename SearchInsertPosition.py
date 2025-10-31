@@ -27,4 +27,4 @@ if __name__ == "__main__":
     
     target1 = 5
     index1 = s.searchInsert(my_nums, target1)
-    print(f"List: {my_nums}, Target: {target1} -> Output Index: {index1}")  # Expected: 2
+    print(f"List: {my_nums}, Target: {target1} -> Output Index: {index1}")  
